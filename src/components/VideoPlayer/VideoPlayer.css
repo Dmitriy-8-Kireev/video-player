@@ -1,0 +1,25 @@
+.video-player {
+  background: url('./bg.jpg') no-repeat;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.video-player__source {
+  width: 600px;
+  height: 300px;
+}
+
+.btn-play,
+.btn-stop {
+  font-size: 1em;
+  font-family: 'Orbitron', sans-serif;
+  background: palevioletred;
+  color: aliceblue;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 7px solid palevioletred;
+  border-radius: 3px;
+}
